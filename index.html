@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Game of Thrones- Character</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav__search">
+        <label for="search"></label>
+        <input id="search" type="text" placeholder="search" />
+      </div>
+      <h1>Game of Thrones</h1>
+      <div class="nav__checkboxes">
+        <div class="nav__checkboxes--div">
+          <label for="stark">Stark</label>
+          <input
+            class="nav__checkbox"
+            type="checkbox"
+            name="stark"
+            id="stark"
+          />
+        </div>
+        <div class="nav__checkboxes--div">
+          <label for="tyrell">Tyrell</label>
+          <input
+            class="nav__checkbox"
+            type="checkbox"
+            name="tyrell"
+            id="tyrell"
+          />
+        </div>
+        <div class="nav__checkboxes--div">
+          <label for="greyjoy">Greyjoy</label>
+          <input
+            class="nav__checkbox"
+            type="checkbox"
+            name="greyjoy"
+            id="greyjoy"
+          />
+        </div>
+        <div class="nav__checkboxes--div">
+          <label for="targaryen">Targaryen</label>
+          <input
+            class="nav__checkbox"
+            type="checkbox"
+            name="targaryen"
+            id="targaryen"
+          />
+        </div>
+      </div>
+    </nav>
+    <main class="character-container"></main>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
